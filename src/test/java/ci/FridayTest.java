@@ -1,9 +1,3 @@
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ci;
 
 import org.junit.jupiter.api.AfterEach;
@@ -13,13 +7,19 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- *
- * @author thomas
+/*
+US1
+As a user I want to see a list of all user on the system by their names only
+US2
+As a user I want to see details of a specific user from the list
+US3
+As a user I want to edit my own user details
  */
-public class MyFunctionalityTest {
 
-    public MyFunctionalityTest() {
+
+public class FridayTest {
+
+    public FridayTest() {
     }
 
     @BeforeAll
@@ -38,15 +38,14 @@ public class MyFunctionalityTest {
     public void tearDown() {
     }
 
-    /**
-     * Test of getTen method, of class MyFunctionality.
-     */
+    
     @Test
-    public void testGetTen() {
-
-        MyFunctionality instance = new MyFunctionality();
-        assertEquals(10, instance.getTen());
-
+    public void Us1()
+    {
+        
     }
 
 }
+
+
+
