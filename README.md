@@ -1,1 +1,1 @@
-# FridayEx1
+Ultra simple Java Project meant for a Github Actions introduction
